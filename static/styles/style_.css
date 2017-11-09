@@ -1,0 +1,23 @@
+html,
+body {
+  height: 100%;
+}
+.wrap {
+  min-height: 100%;
+}
+.game_main {
+  padding-bottom: 60px;
+  /*Высота футера*/
+}
+.game_footer {
+  margin-top: -60px;
+  /*Минус Высота футера*/
+  height: 60px;
+  /*Высота футера*/
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  padding: 20px;
+}

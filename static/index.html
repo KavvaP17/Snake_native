@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Snake</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <div class='wrap'>
+    <header class='game_header'>
+      <h1>Snake</h1>
+    </header>
+    <main class = 'game_main'>
+      <section class="game_section">
+        <section class="game_location_header">
+          <p class='game_start_lable'>Please, press space to start the game.</p>
+          <p class='game_result_lable' id='game_status'>Score : <span id='game_score'>0</span></p>
+        </section>
+        <section class="game_location">
+          <table class="gameTable">
+            <tbody id='game_container'>
+            </tbody>
+          </table>
+        </section>
+        <section class="game_location_footer">
+          <h4>Game control</h4>
+          <p class='game_control'>
+            <span><b>SPACE</b> - start game</span>
+            <span><b>W</b> - up</span>
+            <span><b>S</b> - down</span>
+            <span><b>D</b> - right</span>
+            <span><b>A</b> - left</span>
+          </p>
+        </section>
+      </section>
+    </main>
+  </div>
+  <footer class="game_footer">
+    <p>footer</p>
+  </footer>
+  <script src="bundle.js"></script>
+</body>
+</html>
